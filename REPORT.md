@@ -1,6 +1,6 @@
 # MP1 Report — A Scaled Modernized GPT with Within-Window Memory
 
-Student: `TODO` · DASE7506 · 30 September 2026
+Student: `3036808630` · DASE7506 · 30 September 2026
 
 ## 1. Method
 

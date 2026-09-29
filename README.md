@@ -1,6 +1,6 @@
 # MP1 — Small Language Model Challenge (DASE7506)
 
-Student: `TODO-STUDENT-ID` · Final submission: 30 September 2026 (UTC+8)
+Student: `3036808630` · Final submission: 30 September 2026 (UTC+8)
 
 **Result: test BPB 1.55596** (FP32, CPU; classroom baseline 2.10273 on the
 same machine → −0.54677 BPB, −26%). See REPORT.md for method, experiments,
