@@ -2,8 +2,8 @@
 
 Student: `TODO-STUDENT-ID` · Final submission: 30 September 2026 (UTC+8)
 
-**Result: test BPB 1.5560** (FP32, CPU; classroom baseline 2.1027 on the
-same machine → −0.547 BPB, −26%). See REPORT.md for method, experiments,
+**Result: test BPB 1.55596** (FP32, CPU; classroom baseline 2.10273 on the
+same machine → −0.54677 BPB, −26%). See REPORT.md for method, experiments,
 comparisons, ablation and critical analysis.
 
 ## Final model
@@ -43,8 +43,8 @@ Evaluate the submitted checkpoint (ranked setting — CPU, FP32):
 python evaluate.py --checkpoint runs/w208-4000/checkpoint-final.pt --device cpu --precision fp32 --split test
 ```
 
-Expected output: `"bpb": 1.5559579447880931` (reproduced twice on the
-author's machine; 17.1 s on idle CPU vs 5.86 s for the baseline).
+Expected output: `"bpb": 1.5559579447880931` (≈1.55596; reproduced twice on
+the author's machine; 17.1 s on idle CPU vs 5.86 s for the baseline).
 
 Retrain from scratch (new output directory per run):
 
